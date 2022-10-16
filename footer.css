@@ -1,0 +1,259 @@
+@media only screen and (min-width:1200px) {
+
+
+    /* Footer */
+    /* ---Desktop version--- */
+    footer {
+        background: black;
+        height: 420px;
+        width: 1440px;
+    }
+
+    footer>.footer-logo {
+        padding-top: 50px;
+        margin-left: 121px;
+    }
+
+
+    footer>.icon {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 121px;
+    }
+
+    footer>.icon>a {
+        background-color: transparent;
+        color: black;
+        font-size: 30px;
+        padding-right: 15px;
+
+    }
+
+    footer>.icon>a:hover {
+        background-color: orange;
+        padding: 8px;
+    }
+
+    footer>p {
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 101.38%;
+        margin-left: 121px;
+        margin-top: 146px;
+    }
+
+    footer>.contact-phone {
+        display: flex;
+        background-color: transparent;
+        color: #fff;
+        font-size: 25px;
+        margin-top: -250px;
+        margin-left: 975px;
+        margin-right: 186px;
+    }
+
+    footer>.contact-phone>img {
+        margin-right: 22px;
+    }
+
+    footer>.contact-email {
+        display: flex;
+        background-color: transparent;
+        color: #fff;
+        font-size: 25px;
+        margin-top: 25px;
+        margin-left: 975px;
+    }
+
+    footer>.contact-email>img {
+        margin-right: 22px;
+    }
+
+}
+
+        /* ---Tablet version --- */
+@media only screen and (min-width: 834px) and (max-width: 1199px) {
+      /* Footer */
+      footer {
+
+        background: black;
+        width: 834px;
+        height: 225.88px;
+    }
+
+    footer>.footer-logo {
+        width: 66.6px;
+        height: 39.38px;
+        display: flex;
+        padding-top: 28.96px;
+        margin-left: 70.66px;
+    }
+
+
+    footer>.icon {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 70.66px;
+    }
+
+    footer>.icon>a {
+        background-color: transparent;
+        color: black;
+        padding-right: 10px;
+    }
+
+    footer>.icon>a>img {
+        width: 23.27px;
+        height: 20.27px;
+    }
+
+    footer>.icon>a:hover {
+        background-color: orange;
+        padding: 3px;
+    }
+
+    footer>p {
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;
+        margin-left: 70.66px;
+        margin-top: 60.14px;
+    }
+
+    footer>.contact-phone {
+        display: flex;
+        background-color: transparent;
+        color: #fff;
+        font-size: 14px;
+        margin-top: -175px;
+        margin-left: 528px;
+        margin-right: 186px;
+        width: 161.59px;
+        height: 23.06px;
+    }
+
+    footer>.contact-phone>img {
+        margin-right: 22px;
+        width: 15.64px;
+        height: 15.64px;
+    }
+
+    footer>.contact-email {
+        display: flex;
+        background-color: transparent;
+        color: #fff;
+        font-size: 14px;
+        margin-top: 15px;
+        margin-left: 528px;
+        width: 161.59px;
+        height: 23.06px;
+    }
+
+    footer>.contact-email>img {
+        margin-right: 22px;
+        width: 15.64px;
+        height: 10.43px;
+    }
+
+    footer>.contact-email>p {
+        margin: 0px;
+    }
+
+}
+
+
+        /*--- Mobile ---*/
+
+ @media only screen and (max-width: 833px) {
+     /* Footer */
+     footer {
+
+        background: black;
+        width: 375px;
+        height: 251px;
+    }
+
+    footer>.footer-logo {
+        width: 53.59px;
+        height: 31.69px;
+        display: flex;
+        padding-top: 23.3px;
+        margin-left: 37.85px;
+    }
+
+
+    footer>.icon {
+        display: flex;
+        margin-top: 13.98px;
+        margin-left: 37.85px;
+    }
+
+    footer>.icon>a {
+        background-color: transparent;
+        color: black;
+        padding-right: 8.39px;
+    }
+
+    footer>.icon>a>img {
+        width: 15.38px;
+        height: 15.38px;
+    }
+
+    footer>.icon>a:hover {
+        background-color: orange;
+        padding: 3px;
+    }
+
+    footer>p {
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;
+        margin-left: 38px;
+        margin-top: 137px;
+    }
+
+    footer>.contact-phone {
+        display: flex;
+        background-color: transparent;
+        color: #fff;
+        font-size: 12px;
+        margin-top: -98px;
+        margin-left: 38px;
+        margin-right: 186px;
+        width: 148px;
+        height: 20.97px;
+    }
+
+    footer>.contact-phone>img {
+        width: 12.58px;
+        height: 12.58px;
+        margin-right: 10.25px;
+    }
+
+    footer>.contact-email {
+        display: flex;
+        background-color: transparent;
+        color: #fff;
+        font-size: 12px;
+        margin-top: 1.4px;
+        margin-left: 38px;
+        width: 148px;
+        height: 20.97px;
+    }
+
+    footer>.contact-email>img {
+        margin-right: 10.25px;
+        width: 15.64px;
+        height: 10.43px;
+    }
+
+ }

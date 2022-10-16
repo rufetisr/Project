@@ -1,0 +1,401 @@
+        /*--- Header ---*/
+        /* --- Desktop --- */
+@media only screen and (min-width:1200px) {  
+
+    header {
+        padding: 21px 246px 0px 122px;
+    }
+
+    #top-logo {
+        width: 112px;
+        height: 66px;
+    }
+
+    /* Div - menu */
+    .menu {
+        display: flex;
+        width: 509px;
+        height: 36px;
+        margin-top: 96px;
+        margin-right: 0px;
+    }
+
+    .menu>.block {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .block>p {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        margin-right: 25px;
+    }
+
+    #globe {
+        width: 22px;
+        height: 22px;
+        margin-right: 8px;
+    }
+
+    #clock {
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+    }
+
+    #calendar {
+        width: 20px;
+        height: 22px;
+        margin-right: 13px;
+    }
+
+    /*--- Description ---*/
+
+    .description {
+        display: flex;
+    }
+
+    .title>h1 {
+        width: 628px;
+        height: 159px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 101.38%;
+        margin-top: 29px;
+        margin-right: 140px;
+        margin-bottom: 0px;
+    }
+
+    .title>p {
+        width: 414px;
+        height: 62px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        margin-top: 20px;
+    }
+
+    #img1 {
+        z-index: 0;
+        position: relative;
+    }
+
+    #ellp1 {
+        margin-left: 27.98px;
+        margin-top: -20px;
+        width: 274px;
+        height: 41px;
+        z-index: 1;
+    }
+
+    /*--- Info-box ---*/
+
+    .info-box {
+        width: 483.63px;
+        height: 200.02px;
+        margin: 67.62px 546.98px 0px 287.39px;
+        background: #1E4681;
+        color: #FFFFFF;
+        border-radius: 5px;
+        padding: 19.38px 18.52px 0.02px 25.61px;
+    }
+
+    .info-box>p:first-child {
+        width: 431px;
+        height: 135px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+
+    }
+
+    .info-box>p:last-child {
+        width: 280.5px;
+        height: 45.64px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        margin-left: 284.61px;
+
+    }
+
+}
+        /* --- Tablet version --- */
+@media only screen and (min-width: 834px) and (max-width: 1199px) {
+     /*--- Header ---*/
+
+     header {
+        padding: 22px 142.48px 0px 70.08px;
+    }
+
+    #top-logo {
+        width: 64.87px;
+        height: 38.23px;
+    }
+
+    /* Div - menu */
+    .menu {
+        display: flex;
+        width: 294.8px;
+        height: 20.85px;
+        margin-top: 55.6px;
+        margin-right: 0px;
+    }
+
+    .menu>.block {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .block>p {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 115%;
+        margin-right: 14.48px;
+    }
+
+    #globe {
+        width: 12.74px;
+        height: 12.16px;
+        margin-right: 4.63px;
+    }
+
+    #clock {
+        width: 12.74px;
+        height: 12.74px;
+        margin-right: 5.79px;
+    }
+
+    #calendar {
+        width: 11.58px;
+        height: 12.74px;
+        margin-right: 7.53px;
+    }
+
+    /*--- Description ---*/
+
+    .description {
+        display: flex;
+    }
+
+    .title>h1 {
+        width: 363.72px;
+        height: 110.04px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 101.38%;
+        margin-top: 7.53px;
+        margin-right: 81.08px;
+        margin-bottom: 0px;
+    }
+
+    .title>p {
+        width: 264px;
+        height: 36px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        margin-top: 2px;
+    }
+
+    #img1 {
+        z-index: 0;
+        width: 176.07px;
+        height: 206.18px;
+        position: relative;
+    }
+
+    #ellp1 {
+        margin-left: 17.98px;
+        margin-top: -20px;
+        width: 158.69px;
+        height: 23.75px;
+        z-index: 1;
+    }
+
+    /*--- Info-box ---*/
+
+    .info-box {
+        width: 280.11px;
+        height: 115.83px;
+        margin: 39.17px 316.79px 0px 217.31px;
+        background: #1E4681;
+        color: #FFFFFF;
+        border-radius: 5px;
+        padding: 11.08px 9.42px 4.2px 14.9px;
+    }
+
+    .info-box>p:first-child {
+        width: 249.38px;
+        height: 65.45px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+
+    }
+
+    .info-box>p:last-child {
+        width: 162.46px;
+        height: 26.43px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        margin-left: 158.22px;
+
+    }
+}
+
+        /*--- Mobile version---*/
+
+ @media only screen and (max-width: 833px) {    
+
+    /*--- Header ---*/
+
+    header {
+        padding: 36px 32.32px 0px 35px;
+    }
+
+    #top-logo {
+        width: 52.19px;
+        height: 30.75px;
+    }
+
+    /* Div - menu */
+    .menu {
+        display: flex;
+        width: 237.18px;
+        height: 14.91px;
+        margin-top: 44.6px;
+        margin-right: 0px;
+    }
+
+    .menu>.block {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .block>p {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 115%;
+        margin-right: 11.65px;
+        width: 60.58px;
+        height: 14.91px;
+    }
+
+    .block:last-child {
+        margin-left: -16px;
+    }
+
+    #globe {
+        width: 10.25px;
+        height: 9.79px;
+        margin-right: 3.73px;
+    }
+
+    #clock {
+        width: 10.25px;
+        height: 10.25px;
+        margin-right: 4.66px;
+    }
+
+    #calendar {
+        width: 9.32px;
+        height: 10.25px;
+        margin-right: 6.06px;
+    }
+
+    /*--- Description ---*/
+
+    .title>h1 {
+        width: 292.63px;
+        height: 88.53px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 37px;
+        line-height: 101.38%;
+        margin-top: 9.74px;
+        margin-right: 29.47px;
+        margin-bottom: 0px;
+    }
+
+    .title>p {
+        width: 212.4px;
+        height: 28.96px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 150%;
+        margin-top: 0.54px;
+    }
+
+    #img1 {
+        z-index: 0;
+        width: 141.68px;
+        height: 175.1px;
+        margin-left: calc(201px - 35px);
+        margin-right: 32.32px;
+        position: relative;
+    }
+
+    #ellp1 {
+        margin-left: calc(215px - 35px);
+        margin-top: -20px;
+        width: 127.68px;
+        height: 19.1px;
+        z-index: 1;
+    }
+
+    /*--- Info-box ---*/
+
+    .info-box {
+        box-sizing: border-box;
+        width: 225.36px;
+        height: 93.19px;
+        margin: 38.64px 111.66px;
+        margin-bottom: 0px;
+        margin-left: calc(37.98px - 35px);
+        background: #1E4681;
+        color: #FFFFFF;
+        border-radius: 2.33;
+        padding: 8.97px 12.59px 3.38px 12.13px;
+    }
+
+    .info-box>p:first-child {
+        width: 200.64px;
+        height: 52.65px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+    }
+
+    .info-box>p:last-child {
+        width: 130.7px;
+        height: 21.27px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 130%;
+        padding-left: 100px;
+
+    }
+ }

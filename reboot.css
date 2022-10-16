@@ -1,0 +1,83 @@
+        /* --- General --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ /* --- Desktop --- */
+ @media only screen and (min-width:1200px) {  
+body {
+    font-family: 'Roboto';
+}
+* {
+    margin: 0px;
+}
+.container {
+    width: 1440px;
+    height: 6575px;
+    background: #FFFFFF;
+    border: 1px solid black;
+    margin: 0px auto;
+}
+h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    height: 93px;
+}
+ }
+        /* --- Tablet version --- */
+
+@media only screen and (min-width: 834px) and (max-width: 1199px) {
+    @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap");
+
+    body {
+        margin: 0;
+    }
+
+    .container {
+        width: 834px;
+        height: 3800px;
+        background: #FFFFFF;
+        border: 1px solid black;
+        margin: 0px auto;
+    }
+
+    h2 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;
+        height: 53.86px;
+    }
+}
+
+        /* --- Mobile version --- */
+@media only screen and (max-width: 833px) {
+    body {
+        font-family: 'Roboto';
+    }
+
+    * {
+        margin: 0px;
+    }
+
+    .container {
+        width: 375px;
+        height: 4524px;
+        background: #FFFFFF;
+        border: 1px solid black;
+        margin: 0px auto;
+    }
+
+    h2 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 101.38%;
+        height: 43.34px;
+    }
+}
