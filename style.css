@@ -384,53 +384,50 @@
 
             /* section5 start*/
             .section5 {
+                box-sizing: border-box;
                 width: 1440px;
                 height: 780px;
                 background: #EFEFEF;
-                margin-top: 80px;
+                margin-top: 121px;
+                padding-left: 122px;
+                padding-top: 91px;
             }
 
-            .section5 .section5-head {
-                position: relative;
+            .section5 h2 {
                 width: 987px;
                 height: 93px;
-                left: 121px;
-                top: 91px;
-            }
-
-            .section5 .section5-head h2 {
                 font-family: 'Roboto Slab';
-                font-style: normal;
                 font-weight: 700;
                 font-size: 55px;
                 line-height: 101.38%;
+
             }
 
             .section5 .section5-card {
                 height: 451px;
                 width: 791px;
-                position: relative;
-                top: 125px;
-                left: 121px;
                 background: #FFFFFF;
                 box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
                 border-radius: 30px;
             }
 
             .section5 .section5-card p {
+                width: 700px;
+                height: 203px;
                 font-family: 'Roboto';
-                font-style: normal;
                 font-weight: 400;
                 font-size: 20px;
                 line-height: 150%;
                 color: #000000;
-                padding: 40px 45px;
+                padding: 40px 45px 10px 45px;
             }
 
             .section5 .section5-card .logo1 {
                 width: 190px;
                 height: 169px;
-                padding-left: 26px;
+                margin-left: 26px;
+                margin-bottom: 29px;
+
             }
 
             .section5 .section5-card .logo2 {
@@ -441,6 +438,8 @@
             }
 
             .section5 .section5-card h4 {
+                width: 353px;
+                height: 59px;
                 font-family: 'Roboto Slab';
                 font-style: normal;
                 font-weight: 700;
@@ -448,8 +447,9 @@
                 line-height: 101.38%;
                 color: #000000;
                 position: relative;
-                bottom: 160px;
-                left: 246px;
+                bottom: 150px;
+                left: 250px;
+
             }
 
             /*--- Section 6 ---  */
@@ -541,14 +541,13 @@
             }
 
             footer>.footer-logo {
-                display: flex;
                 padding-top: 50px;
                 margin-left: 121px;
             }
 
 
             footer>.icon {
-                left: 121px;
+                display: flex;
                 margin-top: 30px;
                 margin-left: 121px;
             }
@@ -563,7 +562,7 @@
 
             footer>.icon>a:hover {
                 background-color: orange;
-                padding: 5px;
+                padding: 8px;
             }
 
             footer>p {
@@ -865,10 +864,14 @@
                 padding: 93.83px 199.23px 0px 70.08px;
             }
 
+            .section2>h2 {
+                margin: 0px;
+            }
+
             /* --- Content --- */
             .section2>.content {
                 display: flex;
-                margin-top: 89px;
+                margin-top: 51.55px;
                 margin-left: 1px;
             }
 
@@ -878,25 +881,26 @@
                 font-size: 15px;
                 line-height: 130%;
                 height: 22.59px;
+                margin: 0px;
             }
 
             .content>.item>p {
                 font-weight: 400;
                 font-size: 11px;
                 line-height: 130%;
-                margin-top: 5px;
+                margin-top: 2px;
             }
 
             .content>.item>.p1 {
                 width: 153px;
                 height: 22px;
-                margin-right: 124px;
+                margin-right: 46px;
             }
 
             .content>.item>.p2 {
                 width: 172px;
                 height: 63px;
-                margin-right: 113px;
+                margin-right: 50.87px;
             }
 
             .content>.item>.p3 {
@@ -907,7 +911,7 @@
 
             /* --- Section3 --- */
             .section3 {
-                padding: 103.55px 370.67px 0px 70.08px;
+                padding: 103.55px 370.59px 0px 70.08px;
             }
 
             .section3>.list-block {
@@ -926,36 +930,35 @@
             @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
             .section4 {
-                margin-top: 248px;
+                margin-top: 154.39px;
             }
 
             .section4-h2 {
-                margin-left: 121px;
+                margin-left: 71px;
                 width: 524.15px;
                 height: 53.86px;
                 font-family: 'Roboto Slab';
                 font-style: normal;
                 font-weight: 700;
                 font-size: 32px;
-                line-height: 32px;
+                line-height: 101.38%;
             }
 
             .section4-cards {
                 display: flex;
                 flex-wrap: wrap;
-                margin-top: 95px;
-                margin-left: 84px;
+                margin-top: 55.83px;
+                margin-left: 48.65px;
             }
 
             .section4-cards>.cards {
                 border: 1px solid violet;
                 width: 231.09px;
                 height: 189.97px;
-                background-color: #FFFFFF;
                 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
                 border-radius: 17.375px;
-                margin-right: 37px;
-                margin-bottom: 41px;
+                margin-right: 21.43px;
+                margin-bottom: 23.75px;
                 border-style: none;
 
             }
@@ -973,8 +976,9 @@
                 font-weight: 700;
                 font-size: 17px;
                 line-height: 22px;
-                margin-top: 11px;
-                margin-left: 20px;
+                margin-top: 6.37px;
+                margin-left: 11.58px;
+                margin-bottom: 0px;
             }
 
             .cards-p {
@@ -984,9 +988,10 @@
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
-                line-height: 18px;
+                line-height: 130%;
                 margin-left: 19px;
-                margin-top: 32px;
+                margin-top: 18.53px;
+                margin-bottom: 13.32px;
             }
 
             .header {
@@ -995,70 +1000,71 @@
 
             /* section5 start*/
             .section5 {
+                box-sizing: border-box;
                 width: 834px;
                 height: 451.75px;
                 background: #EFEFEF;
-                margin-top: 52.6px;
+                margin-top: 54.6px;
+                padding-left: 81.66px;
+                padding-top: 50.7px;
             }
 
-
             .section5 h2 {
-                position: relative;
                 width: 571.64px;
                 height: 53.86px;
-                left: 121px;
-                top: 91px;
                 font-family: 'Roboto Slab';
-                font-style: normal;
                 font-weight: 700;
                 font-size: 32px;
                 line-height: 101.38%;
+                margin: 0px;
             }
 
             .section5 .section5-card {
-                position: absolute;
                 width: 458.12px;
                 height: 261.2px;
-                left: 72.97px;
-                top: 2797.26px;
                 background: #FFFFFF;
-                box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
-                border-radius: 17.375px;
+                box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+                border-radius: 17.38px;
             }
 
             .section5 .section5-card p {
+                width: 405.42px;
+                height: 117.57px;
                 font-family: 'Roboto';
-                font-style: normal;
                 font-weight: 400;
-                font-size: 20px;
+                font-size: 12px;
                 line-height: 150%;
-                color: #000000;
-                padding: 40px 45px;
+                padding: 23.17px 26.64px 5.79px 26.06px;
             }
 
             .section5 .section5-card .logo1 {
-                width: 190px;
-                height: 169px;
-                padding-left: 26px;
+                width: 110.04px;
+                height: 97.88px;
+                margin-left: 15.06px;
+                margin-bottom: 16.8px;
+
             }
 
             .section5 .section5-card .logo2 {
-                width: 32px;
-                height: 31px;
-                padding-bottom: 68px;
-                padding-left: 30px;
+                width: 18.53px;
+                height: 17.95px;
+                padding-bottom: 39.38px;
+                padding-left: 17.38px;
             }
 
             .section5 .section5-card h4 {
+                width: 204.45px;
+                height: 34.17px;
                 font-family: 'Roboto Slab';
                 font-style: normal;
                 font-weight: 700;
-                font-size: 30px;
+                font-size: 17px;
                 line-height: 101.38%;
                 color: #000000;
                 position: relative;
-                bottom: 160px;
-                left: 246px;
+                bottom: 120px;
+                left: 145px;
+
             }
 
             /*--- Section 6 ---  */
@@ -1087,8 +1093,9 @@
                 font-style: normal;
                 font-weight: 700;
                 font-size: 32px;
-                line-height: 32px;
-                margin-bottom: 54px;
+                line-height: 101.38%;
+                margin-bottom: 31.27px;
+                margin-top: 0px;
             }
 
             .section6-text1 {
@@ -1098,19 +1105,18 @@
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
-                line-height: 14px;
-                margin-bottom: 30px;
+                margin-bottom: 0px;
             }
 
             .section6-text2 {
                 width: 278.58px;
-                height: 104.83px;
+                height: 30px;
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 46px;
                 line-height: 47px;
-                margin-top: -40px;
+                margin-top: 0px;
             }
 
             .section6-div {
@@ -1118,7 +1124,7 @@
             }
 
             .section6-text {
-                margin-right: 70px;
+                margin-right: 40.54px;
             }
 
             .section6-text h5 {
@@ -1129,6 +1135,7 @@
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 14px;
+                margin-bottom: 0px;
             }
 
             .section6-text p {
@@ -1145,35 +1152,41 @@
 
             /* Footer */
             footer {
+
                 background: black;
-                height: 420px;
-                width: 1440px;
+                width: 834px;
+                height: 225.88px;
             }
 
             footer>.footer-logo {
+                width: 66.6px;
+                height: 39.38px;
                 display: flex;
-                padding-top: 50px;
-                margin-left: 121px;
+                padding-top: 28.96px;
+                margin-left: 70.66px;
             }
 
 
             footer>.icon {
-                left: 121px;
+                display: flex;
                 margin-top: 30px;
-                margin-left: 121px;
+                margin-left: 70.66px;
             }
 
             footer>.icon>a {
                 background-color: transparent;
                 color: black;
-                font-size: 30px;
-                padding-right: 15px;
+                padding-right: 10px;
+            }
 
+            footer>.icon>a>img {
+                width: 23.27px;
+                height: 20.27px;
             }
 
             footer>.icon>a:hover {
                 background-color: orange;
-                padding: 5px;
+                padding: 3px;
             }
 
             footer>p {
@@ -1181,37 +1194,48 @@
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: 10px;
                 line-height: 101.38%;
-                margin-left: 121px;
-                margin-top: 146px;
+                margin-left: 70.66px;
+                margin-top: 60.14px;
             }
 
             footer>.contact-phone {
                 display: flex;
                 background-color: transparent;
                 color: #fff;
-                font-size: 25px;
-                margin-top: -250px;
-                margin-left: 975px;
+                font-size: 14px;
+                margin-top: -175px;
+                margin-left: 528px;
                 margin-right: 186px;
+                width: 161.59px;
+                height: 23.06px;
             }
 
             footer>.contact-phone>img {
                 margin-right: 22px;
+                width: 15.64px;
+                height: 15.64px;
             }
 
             footer>.contact-email {
                 display: flex;
                 background-color: transparent;
                 color: #fff;
-                font-size: 25px;
-                margin-top: 25px;
-                margin-left: 975px;
+                font-size: 14px;
+                margin-top: 15px;
+                margin-left: 528px;
+                width: 161.59px;
+                height: 23.06px;
             }
 
             footer>.contact-email>img {
                 margin-right: 22px;
+                width: 15.64px;
+                height: 10.43px;
             }
 
+            footer>.contact-email>p {
+                margin: 0px;
+            }
         }
